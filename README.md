@@ -16,3 +16,40 @@ This project explores music generation using Deep Learning techniques, specifica
    ```bash
    git clone [https://github.com/your-username/music-generation-dl.git](https://github.com/your-username/music-generation-dl.git)
    cd music-generation-dl
+📂 Usage
+Prepare Data:
+
+Place your .mid or .midi files into the data/ directory.
+
+Note: Ensure the dataset directory path in the notebook matches your local folder structure.
+
+Run the Notebook:
+
+Open Music_Generation.ipynb in Jupyter Notebook or JupyterLab.
+
+Run the cells to preprocess data, train the models, and generate music.
+
+Generate Music:
+
+After training, the models will generate MIDI files (e.g., LSTM_generated_music.mid) saved in the project directory.
+
+🧠 Model Details
+LSTM (Long Short-Term Memory)
+
+Layers: 3 LSTM layers (256 units each) with Dropout (0.3) to prevent overfitting.
+
+Optimizer: Adam
+
+Loss Function: Categorical Crossentropy
+
+GRU (Gated Recurrent Unit)
+
+Layers: 3 GRU layers (256 units each) with Dropout (0.3).
+
+Performance: Comparable to LSTM but often faster to train.
+
+📊 Results
+The notebook includes code to visualize and compare the training metrics (Loss) of both models.
+
+📝 License
+MIT
