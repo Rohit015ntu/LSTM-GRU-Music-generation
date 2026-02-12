@@ -14,8 +14,8 @@ This project explores music generation using Deep Learning techniques, specifica
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/music-generation-dl.git](https://github.com/your-username/music-generation-dl.git)
-   cd music-generation-dl
+   git clone https://github.com/Rohit015ntu/LSTM-GRU-Music-generation.git
+   cd LSTM-GRU-Music-generation
 📂 Usage
 Prepare Data:
 
